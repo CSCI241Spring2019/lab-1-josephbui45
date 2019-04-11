@@ -1,0 +1,103 @@
+Script started on Thu 11 Apr 2019 01:06:57 PM PDT
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git s[Kcheckout
+Your branch is up-to-date with 'origin/master'.
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git reset
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git rm
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git v[Kmv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git log
+[?1h=[33mcommit 4cc7fde8f87cdec5fc951b08d7bc93134c98826e[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:53:53 2019 -0700[m
+[m
+    Hello now prints command line arg[m
+[m
+[33mcommit aea48a14f05d2a2d24bc8f0b01cb8db76cab3a21[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:36:21 2019 -0700[m
+[m
+    Added favorite song[m
+[m
+[33mcommit a3b9ec34ce64aa126d68d13a0c3cc3663a96d815[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:22:05 2019 -0700[m
+[m
+    Added name, WWU username, and Github username[m
+[m
+[33mcommit 69c7c41cab92c33871ede60f774a752900e78a5e[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:17:54 2019 -0700[m
+[m
+    Added username.txt[m
+[m
+[33mcommit 8f34b00d5fb321ed0878fc349084b74820d4165a[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:14:55 2019 -0700[m
+[m
+    Added a hobby[m
+[m
+[33mcommit 1b91c35cd2b8ec3e32bf1c4bc187c2bc0bd1e032[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:11:42 2019 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit b8e8ae247c2f1c627f08b4075490641929e8b8da[m[m
+Author: Joseph Bui <buij2@wwu.edu>[m
+Date:   Thu Apr 11 12:08:01 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[K[?1l>buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git diff
+[?1h=[K[?1l>buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+buij2@CF165-23:~/csci241/Lab1/lab-1-josephbui45$ exit
+exit
+
+Script done on Thu 11 Apr 2019 01:07:49 PM PDT
